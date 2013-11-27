@@ -23,6 +23,8 @@ void loop() {
  
  
   Serial.print(distance);
-  Serial.println(" cm to nearest object");
+  Serial.println(" CM to nearest object");
  
-  delay(500); }
+  delay(500);
+  
+ }
