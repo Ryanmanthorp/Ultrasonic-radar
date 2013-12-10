@@ -19,11 +19,11 @@ void loop() {
   duration = pulseIn(echoPin, HIGH);
   distance = (duration/2) / 29.1;
   Serial.print(duration);
-  Serial.println(" - Duriation");      
+  Serial.println(" - Duriation.");      
  
  
   Serial.print(distance);
-  Serial.println(" CM to nearest object");
+  Serial.println(" CM to nearest object.");
  
   delay(500);
   
